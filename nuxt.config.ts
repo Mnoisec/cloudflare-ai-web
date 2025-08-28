@@ -48,4 +48,8 @@ export default defineNuxtConfig({
     //         regions: ["sin1", "syd1", "sfo1", "iad1", "pdx1", "cle1"]
     //     }
     // }
+    // 部署到 Cloudflare Workers
+    nitro: {
+        preset: 'cloudflare'
+    }
 })
